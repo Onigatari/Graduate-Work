@@ -1,0 +1,4 @@
+\providecommand \autonum@processReference [2]{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1}Введение}{2}{section.3}%

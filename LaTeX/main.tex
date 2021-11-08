@@ -1,8 +1,9 @@
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,14pt]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
 \usepackage[14pt]{extsizes}
+
 \usepackage{cmap}
 \usepackage{indentfirst}
 \usepackage{autonum}
@@ -16,43 +17,13 @@
 \usepackage{multirow}
 \usepackage{dsfont}
 \usepackage{setspace,amsmath}
-\usepackage[table,xcdraw]{xcolor}
-\usepackage[unicode, pdftex]{hyperref}
-\usepackage[left=15mm, top=20mm, right=15mm, bottom=20mm, nohead, footskip=15mm]{geometry}
-\usepackage{tikz}
-\usepackage{tkz-graph}
-\usepackage{listings}
-\usepackage{color}
 
-\definecolor{dkgreen}{rgb}{0,0.6,0}
-\definecolor{gray}{rgb}{0.5,0.5,0.5}
-\definecolor{mauve}{rgb}{0.58,0,0.82}
+\usepackage[unicode, pdftex]{hyperref}
+\usepackage[left=30mm, top=20mm, right=15mm, bottom=20mm, footskip=10mm]{geometry}
 
 \begin{document}
 	\selectlanguage{russian}
 	\setcounter{page}{0}
-	\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}.}
-	
-	\lstset{
-		frame=tb,
-		framexleftmargin=1.5em,
-		language=C++,
-		aboveskip=2mm,
-		belowskip=2mm,
-		showstringspaces=false,
-		extendedchars=\true
-		inputencoding=utf8x,
-		columns=flexible,
-		basicstyle={\small\ttfamily},
-		numbers=left,
-		numberstyle=\tiny\color{gray},
-		keywordstyle=\color{blue},
-		commentstyle=\color{dkgreen},
-		stringstyle=\color{mauve},
-		breaklines=true,
-		breakatwhitespace=true,
-		tabsize=4
-	}
 	
 	\begin{center}
 		\small{Министерство науки и высшего образования Российской Федерации}\\
@@ -116,13 +87,11 @@
 	
 	\section{Введение}
 	
-	 \textbf{Seq2seq} - это целое семейство подходов машинного обучения, используемых для обработки естественного языка. Основными задачами для данной теории являются: языковой перевод, субтитры к изображениям, разговорные модели и обобщение текста.
+	 \textbf{Seq2seq} - это семейство подходов машинного обучения, используемых для обработки естественного языка. Основные задачи для которого используется данные методы: нейронный перевод, субтитры к изображениям, разговорные модели и обобщение текста.
 	 
-	 Алгоритм был разработан \textit{Google} для использования в машинном переводе. Как уже можно заметить за последнюю пару лет коммерческие системы стали удивительно хороши в  переводе - посмотрите, например, \textit{Google Translate}, \textit{Яндекс}-переводчик, переводчик \textit{DeepL}, переводчик \textit{Bing Microsoft}.
+	 Первоначальный алгоритм, который в процессе породил целое семейство методов, был разработан \textit{Google} для использования в машинном переводе. Как уже можно заметить за последнюю пару лет коммерческие системы стали удивительно хороши в  переводе - посмотрите, например, \textit{Google Translate}, \textit{Яндекс}-переводчик, переводчик \textit{DeepL}, переводчик \textit{Bing Microsoft}.
 	 
-	 Так же у \textbf{seq2seq} технологи огромный потанцевал, помимо привычного машинного перевода между естественными языками, вполне реализуем перевод между языками программирования (\textit{Facebook AI "Глубокое обучение переводу между языками программирования"}). Поэтому возможности применений такого подхода довольно велики. 
-	 
-	 Далее в своей работе под машинным переводом я будем понимать любую общую задачу \textbf{seq2seq}, если точнее, то перевод между последовательностями любой природы.
+	 Так же \textbf{seq2seq} технология несет в себе огромный потанцевал, помимо привычного машинного перевода между естественными языками, вполне реализуем перевод между языками программирования (\textit{Facebook AI "Глубокое обучение переводу между языками программирования"}). Поэтому возможности применений такого рода подходов довольно велики. В связи с этим под машинным переводом будет подразумеваться любая задача \textbf{seq2seq}, если точнее, то перевод между последовательностями любой природы.
 	 
 	 \clearpage
 	 

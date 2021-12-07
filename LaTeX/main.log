@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10 NEXT) (preloaded format=pdflatex 2021.11.9)  9 NOV 2021 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10 NEXT) (preloaded format=pdflatex 2021.11.9)  7 DEC 2021 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -850,39 +850,56 @@ LaTeX Font Warning: Font shape `TS1/faq/m/n' undefined
 
 [3
 
-] [4
+]
+<img/encoder-decoder-img-1.png, id=58, 697.60625pt x 422.57875pt>
+File: img/encoder-decoder-img-1.png Graphic file (type png)
+<use img/encoder-decoder-img-1.png>
+Package pdftex.def Info: img/encoder-decoder-img-1.png  used on input line 121.
 
-] (main.aux)
+(pdftex.def)             Requested size: 469.47049pt x 284.38365pt.
+ [4
+
+ <./img/encoder-decoder-img-1.png>] (main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 753246949710CEFA654A208CF4EAA239;652.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: E2214D04E52E0F44B02EDD0FD1A8FFF4;786
+(rerunfilecheck)             After:  753246949710CEFA654A208CF4EAA239;652.
  ) 
 Here is how much of TeX's memory you used:
- 14244 strings out of 478893
- 209640 string characters out of 2849533
+ 14255 strings out of 478893
+ 209898 string characters out of 2849533
  547113 words of memory out of 3000000
- 31849 multiletter control sequences out of 15000+600000
+ 31856 multiletter control sequences out of 15000+600000
  425493 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,9n,80p,923b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcrm1440.pk>{C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/t
-2/t2a.enc}<C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-pscyr/antiq5.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/pscyr/antiq6.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/pscyr/antiq7.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Onigatari/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Onigatari/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/
-Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pf
-b><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (5 pages, 116422 bytes).
+
+pdfTeX warning (dest): name{section.6} has been referenced but does not exist, 
+replaced by a fixed one
+
+ <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
+rm1440.pk>{C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/t2/
+t2a.enc}<C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/ps
+cyr/antiq5.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/pscyr/antiq6.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/pscyr/antiq7.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Onigatari/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Onigatari/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/On
+igatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (5 pages, 129056 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 104 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

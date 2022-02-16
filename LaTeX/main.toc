@@ -3,4 +3,5 @@
 \babel@toc {russian}{}\relax 
 \contentsline {section}{\numberline {1}Введение}{2}{section.3}%
 \contentsline {section}{\numberline {2}Формализация задачи машинного перевода}{3}{section.4}%
-\contentsline {section}{\numberline {3}Структура Encoder-Decoder}{4}{section.5}%
+\contentsline {section}{\numberline {3}Задача машинного перевода}{4}{section.5}%
+\contentsline {section}{\numberline {4}Структура Encoder-Decoder}{5}{section.6}%

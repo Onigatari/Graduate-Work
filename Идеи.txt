@@ -1,6 +1,12 @@
 GitHub: https://github.com/bentrevett/pytorch-seq2seq
 Визуализация Seq2seq: https://habr.com/ru/post/486158/
 Mini Seq2seq: https://github.com/keon/seq2seq
+История развития я машинного перевода: https://vc.ru/future/32616-mashinnyy-perevod-ot-holodnoy-voyny-do-glubokogo-obucheniya
+Лекция Seq2Seq: https://www.youtube.com/watch?v=N3TLYsn0TU8
+Лекция Внимание (Attention): https://www.youtube.com/watch?v=G4vT5cvJSxY
+Seq2seq на PyTorch: https://github.com/spro/practical-pytorch/blob/master/seq2seq-translation/seq2seq-translation.ipynb
+Оригинальная статься: https://proceedings.neurips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf
+https://tatoeba.org/ru/downloads
 
 Лекция. Введение в NLP. Эмбеддинги слов (06.03.2020)
 https://www.youtube.com/watch?v=CWpe4uD9vr4&t
@@ -39,3 +45,7 @@ https://www.youtube.com/watch?v=rZC2_BKRUAk&t
 4. Beam search - решает проблему, проблему выбора максимальной вероятностям. Строятся несколько последовательностей по максимальным
 	вероятностям. В среднем 4-8. 
 5. Teacher-forcing - вместе с тем что моя модель выдавала я передаю в следующий этап перевод который должен был быть.
+
+Map для осетинского
+BATCH
+LSTM

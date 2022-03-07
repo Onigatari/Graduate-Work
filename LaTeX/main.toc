@@ -1,7 +1,10 @@
 \providecommand \autonum@processReference [2]{}
-\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \contentsline {section}{\numberline {1}Введение}{2}{section.3}%
-\contentsline {section}{\numberline {2}Формализация задачи машинного перевода}{3}{section.4}%
-\contentsline {section}{\numberline {3}Задача машинного перевода}{4}{section.5}%
-\contentsline {section}{\numberline {4}Структура Encoder-Decoder}{5}{section.6}%
+\contentsline {section}{\numberline {2}Рекуррентные сети}{3}{section.4}%
+\contentsline {subsection}{\numberline {2.1}RNN - Recиrrent Neural Network}{3}{subsection.5}%
+\contentsline {subsection}{\numberline {2.2}LSTM - Long Short-Term Memory}{7}{subsection.15}%
+\contentsline {subsection}{\numberline {2.3}GRU - Gated Recurrent Unit}{8}{subsection.16}%
+\contentsline {section}{\numberline {3}Формализация задачи машинного перевода}{9}{section.17}%
+\contentsline {section}{\numberline {4}Структура Encoder-Decoder}{10}{section.18}%

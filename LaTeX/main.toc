@@ -4,7 +4,8 @@
 \contentsline {section}{\numberline {1}Введение}{2}{section.3}%
 \contentsline {section}{\numberline {2}Рекуррентные сети}{3}{section.4}%
 \contentsline {subsection}{\numberline {2.1}RNN - Recиrrent Neural Network}{3}{subsection.5}%
-\contentsline {subsection}{\numberline {2.2}LSTM - Long Short-Term Memory}{6}{subsection.11}%
-\contentsline {subsection}{\numberline {2.3}GRU - Gated Recurrent Unit}{7}{subsection.12}%
-\contentsline {section}{\numberline {3}Формализация задачи машинного перевода}{8}{section.13}%
-\contentsline {section}{\numberline {4}Структура Encoder-Decoder}{9}{section.14}%
+\contentsline {subsection}{\numberline {2.2}GRNN - Gated Recurrent Neural Networks}{8}{subsection.13}%
+\contentsline {subsubsection}{\numberline {2.2.1}LSTM - Long Short-Term Memory}{8}{subsubsection.14}%
+\contentsline {subsubsection}{\numberline {2.2.2}GRU - Gated Recurrent Unit}{9}{subsubsection.15}%
+\contentsline {section}{\numberline {3}Формализация задачи машинного перевода}{10}{section.16}%
+\contentsline {section}{\numberline {4}Структура Encoder-Decoder}{11}{section.17}%

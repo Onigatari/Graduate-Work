@@ -29,7 +29,6 @@ def masked_cross_entropy(logits, target, length):
             class for each corresponding step.
         length: A Variable containing a LongTensor of size (batch,)
             which contains the length of each data in a batch.
-
     Returns:
         loss: An average loss value masked by the length.
     """

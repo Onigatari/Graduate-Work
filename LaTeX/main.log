@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.7)  12 MAR 2022 20:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.7)  15 MAR 2022 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -958,90 +958,105 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 \c@theorem=\count325
  [2
 
+] [3
+
 ]
-<img/1.png, id=70, 346.29375pt x 602.25pt>
+<img/1.png, id=86, 346.29375pt x 602.25pt>
 File: img/1.png Graphic file (type png)
 <use img/1.png>
-Package pdftex.def Info: img/1.png  used on input line 29.
+Package pdftex.def Info: img/1.png  used on input line 45.
 (pdftex.def)             Requested size: 106.3407pt x 184.9429pt.
 
-Overfull \hbox (4.36066pt too wide) in paragraph at lines 40--41
+Overfull \hbox (4.36066pt too wide) in paragraph at lines 56--57
 []\T2A/cmr/bx/n/14.4 ‘ункци€ ак-ти-ва-ции $\OML/cmm/m/it/14.4 \OT1/cmr/m/n/14.
 4 (\OML/cmm/m/it/14.4 z\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 €в-л€-ет-с€ аб-ст
 рак-ци-ей, пред-став-л€-ю-щей ско-
  []
 
-[3
+[4
 
- <./img/1.png>] [4
+ <./img/1.png>] [5
 
 ]
-<img/3.png, id=92, 977.8131pt x 256.91985pt>
+<img/3.png, id=101, 977.8131pt x 256.91985pt>
 File: img/3.png Graphic file (type png)
 <use img/3.png>
-Package pdftex.def Info: img/3.png  used on input line 89.
+Package pdftex.def Info: img/3.png  used on input line 105.
 (pdftex.def)             Requested size: 433.14853pt x 113.81102pt.
- [5 <./img/3.png>]
-<img/rnn_unfolded.png, id=100, 1115.6079pt x 390.0171pt>
+ [6 <./img/3.png>]
+<img/rnn_unfolded.png, id=110, 1115.6079pt x 390.0171pt>
 File: img/rnn_unfolded.png Graphic file (type png)
 <use img/rnn_unfolded.png>
-Package pdftex.def Info: img/rnn_unfolded.png  used on input line 118.
+Package pdftex.def Info: img/rnn_unfolded.png  used on input line 134.
 (pdftex.def)             Requested size: 469.47046pt x 164.12743pt.
-<img/RNN.png, id=101, 1148.29pt x 835.12pt>
+<img/RNN.png, id=111, 1148.29pt x 835.12pt>
 File: img/RNN.png Graphic file (type png)
 <use img/RNN.png>
-Package pdftex.def Info: img/RNN.png  used on input line 159.
+Package pdftex.def Info: img/RNN.png  used on input line 175.
 (pdftex.def)             Requested size: 398.33858pt x 289.69682pt.
- [6
+ [7
 
- <./img/rnn_unfolded.png>] [7 <./img/RNN.png>] [8
+ <./img/rnn_unfolded.png>] [8 <./img/RNN.png>] [9
 
 ]
-Overfull \hbox (0.76138pt too wide) in paragraph at lines 214--215
+Overfull \hbox (0.76138pt too wide) in paragraph at lines 230--231
 []\T2A/cmr/m/n/14.4 где вен-тиль об-нов-ле-ни€ $\OML/cmm/m/it/14.4 z[]$ \T2A/cm
 r/m/n/14.4 ре-ша-ет, на-сколь-ко устрой-ство об-нов-л€-ет свою
  []
 
-[9
-
-] [10
+[10
 
 ] [11
 
+]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+265.
+
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+Overfull \hbox (9.95346pt too wide) in paragraph at lines 265--266
+[]\T2A/cmr/m/n/14.4 ѕолностью вз€т с ба-зы дан-ных: []$\T2A/cmtt/m/n/14.4 https
+ : / / tatoeba . org / ru / downloads$[]
+ []
+
+[12
+
 ] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FB862FAA2BCF9567A855B38CF02417A8;1739.
+(rerunfilecheck)             Checksum: C77E9FD95144EBA7B0CBEF354EE9496B;1870.
  ) 
 Here is how much of TeX's memory you used:
- 16322 strings out of 478584
- 260820 string characters out of 2842514
+ 16355 strings out of 478584
+ 261639 string characters out of 2842514
  567589 words of memory out of 3000000
- 34186 multiletter control sequences out of 15000+600000
- 482787 words of font info for 55 fonts, out of 8000000 for 9000
+ 34207 multiletter control sequences out of 15000+600000
+ 483097 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,16n,79p,1076b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcrm1440.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
-/dpi600\labx2074.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/l
-h/lh-t2a/dpi600\lati1440.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/
-ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\f
-onts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Onigatari\AppData\Local\
-MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Onigatari\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Onigatar
-i\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><C:/Users/O
-nigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pf
-b><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmmi12.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Onigatari/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Onigatari/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Oniga
-tari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
-:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmsy7.pfb>
-Output written on main.pdf (12 pages, 640288 bytes).
+ <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
+tt1440.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\tcrm1440.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/l
+h/lh-t2a/dpi600\labx2074.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/
+ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\f
+onts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Onigatari\AppData\Local\
+MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Onigatari\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Onigatar
+i\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\
+Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><C:
+/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mex10.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Onigatari/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Onigatari/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Onigatari
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Use
+rs/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb>
+Output written on main.pdf (13 pages, 653316 bytes).
 PDF statistics:
- 577 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 622 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

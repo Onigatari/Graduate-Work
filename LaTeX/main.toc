@@ -2,10 +2,11 @@
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \contentsline {section}{\numberline {1}Введение}{2}{section.3}%
-\contentsline {section}{\numberline {2}Рекуррентные сети}{3}{section.4}%
-\contentsline {subsection}{\numberline {2.1}RNN - Recиrrent Neural Network}{3}{subsection.5}%
-\contentsline {subsection}{\numberline {2.2}GRNN - Gated Recurrent Neural Networks}{8}{subsection.13}%
-\contentsline {subsubsection}{\numberline {2.2.1}LSTM - Long Short-Term Memory}{8}{subsubsection.14}%
-\contentsline {subsubsection}{\numberline {2.2.2}GRU - Gated Recurrent Unit}{9}{subsubsection.15}%
-\contentsline {section}{\numberline {3}Формализация задачи машинного перевода}{10}{section.16}%
+\contentsline {section}{\numberline {2}Формализация задачи машинного перевода}{3}{section.4}%
+\contentsline {section}{\numberline {3}Рекуррентные сети}{4}{section.5}%
+\contentsline {subsection}{\numberline {3.1}RNN - Recиrrent Neural Network}{4}{subsection.6}%
+\contentsline {subsection}{\numberline {3.2}GRNN - Gated Recurrent Neural Networks}{9}{subsection.14}%
+\contentsline {subsubsection}{\numberline {3.2.1}LSTM - Long Short-Term Memory}{9}{subsubsection.15}%
+\contentsline {subsubsection}{\numberline {3.2.2}GRU - Gated Recurrent Unit}{10}{subsubsection.16}%
 \contentsline {section}{\numberline {4}Структура Encoder-Decoder}{11}{section.17}%
+\contentsline {section}{\numberline {5}Сбор данных}{12}{section.18}%

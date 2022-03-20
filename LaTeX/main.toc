@@ -8,5 +8,7 @@
 \contentsline {subsection}{\numberline {3.2}GRNN - Gated Recurrent Neural Networks}{9}{subsection.14}%
 \contentsline {subsubsection}{\numberline {3.2.1}LSTM - Long Short-Term Memory}{9}{subsubsection.15}%
 \contentsline {subsubsection}{\numberline {3.2.2}GRU - Gated Recurrent Unit}{10}{subsubsection.16}%
-\contentsline {section}{\numberline {4}Структура Encoder-Decoder}{11}{section.17}%
-\contentsline {section}{\numberline {5}Сбор данных}{12}{section.18}%
+\contentsline {section}{\numberline {4}Построение модели Seq2Seq}{11}{section.17}%
+\contentsline {subsection}{\numberline {4.1}Encoder}{11}{subsection.18}%
+\contentsline {section}{\numberline {5}Сбор данных}{12}{section.19}%
+\contentsline {section}{Список используемой литературы}{13}{Item.24}%

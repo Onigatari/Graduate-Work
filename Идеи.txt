@@ -7,6 +7,7 @@ Mini Seq2seq: https://github.com/keon/seq2seq
 Seq2seq на PyTorch: https://github.com/spro/practical-pytorch/blob/master/seq2seq-translation/seq2seq-translation.ipynb
 Оригинальная статься: https://proceedings.neurips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf
 https://tatoeba.org/ru/downloads
+https://github.com/vasiliyeskin/bentrevett-pytorch-seq2seq_ru/blob/master/3%20-%20Neural%20Machine%20Translation%20by%20Jointly%20Learning%20to%20Align%20and%20Translate.ipynb
 
 Лекция. Введение в NLP. Эмбеддинги слов (06.03.2020)
 https://www.youtube.com/watch?v=CWpe4uD9vr4&t

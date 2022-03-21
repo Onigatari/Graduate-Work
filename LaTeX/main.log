@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.7)  15 MAR 2022 15:31
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.7)  20 MAR 2022 22:08
+>>>>>>> d0fee722f57e8f17a269f11bff54b8bf57796693
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -961,7 +965,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 ] [3
 
 ]
+<<<<<<< HEAD
 <img/1.png, id=86, 346.29375pt x 602.25pt>
+=======
+<img/1.png, id=91, 346.29375pt x 602.25pt>
+>>>>>>> d0fee722f57e8f17a269f11bff54b8bf57796693
 File: img/1.png Graphic file (type png)
 <use img/1.png>
 Package pdftex.def Info: img/1.png  used on input line 45.
@@ -978,18 +986,30 @@ Overfull \hbox (4.36066pt too wide) in paragraph at lines 56--57
  <./img/1.png>] [5
 
 ]
+<<<<<<< HEAD
 <img/3.png, id=101, 977.8131pt x 256.91985pt>
+=======
+<img/3.png, id=106, 977.8131pt x 256.91985pt>
+>>>>>>> d0fee722f57e8f17a269f11bff54b8bf57796693
 File: img/3.png Graphic file (type png)
 <use img/3.png>
 Package pdftex.def Info: img/3.png  used on input line 105.
 (pdftex.def)             Requested size: 433.14853pt x 113.81102pt.
  [6 <./img/3.png>]
+<<<<<<< HEAD
 <img/rnn_unfolded.png, id=110, 1115.6079pt x 390.0171pt>
+=======
+<img/rnn_unfolded.png, id=115, 1115.6079pt x 390.0171pt>
+>>>>>>> d0fee722f57e8f17a269f11bff54b8bf57796693
 File: img/rnn_unfolded.png Graphic file (type png)
 <use img/rnn_unfolded.png>
 Package pdftex.def Info: img/rnn_unfolded.png  used on input line 134.
 (pdftex.def)             Requested size: 469.47046pt x 164.12743pt.
+<<<<<<< HEAD
 <img/RNN.png, id=111, 1148.29pt x 835.12pt>
+=======
+<img/RNN.png, id=116, 1148.29pt x 835.12pt>
+>>>>>>> d0fee722f57e8f17a269f11bff54b8bf57796693
 File: img/RNN.png Graphic file (type png)
 <use img/RNN.png>
 Package pdftex.def Info: img/RNN.png  used on input line 175.
@@ -1010,16 +1030,25 @@ r/m/n/14.4 ре-ша-ет, на-сколь-ко устрой-ство об-нов-ля-ет свою
 
 ]
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+<<<<<<< HEAD
 265.
+=======
+267.
+>>>>>>> d0fee722f57e8f17a269f11bff54b8bf57796693
 
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
+<<<<<<< HEAD
 Overfull \hbox (9.95346pt too wide) in paragraph at lines 265--266
+=======
+Overfull \hbox (9.95346pt too wide) in paragraph at lines 267--268
+>>>>>>> d0fee722f57e8f17a269f11bff54b8bf57796693
 []\T2A/cmr/m/n/14.4 Полностью взят с ба-зы дан-ных: []$\T2A/cmtt/m/n/14.4 https
  : / / tatoeba . org / ru / downloads$[]
  []
 
+<<<<<<< HEAD
 [12
 
 ] (main.aux)
@@ -1059,4 +1088,68 @@ PDF statistics:
  622 PDF objects out of 1000 (max. 8388607)
  36 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+
+Overfull \hbox (12.8986pt too wide) in paragraph at lines 273--274
+\T2A/cmr/m/n/14.4 по-мо-щью элек-трон-ных сло-ва-рей про-грам-мы Lingvo. []$\T2
+A/cmtt/m/n/14.4 https : / / ironau .
+ []
+
+[12
+
+]
+Underfull \hbox (badness 1275) in paragraph at lines 284--285
+[]\T2A/cmr/m/n/14.4 Michael I. Jordan - Serial Order: A Parallel Distributed Pr
+ocessing
+ []
+
+[13] (main.aux)
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 2E92681B2EFD8ED79CC97BD231FF1B52;2152
+(rerunfilecheck)             After:  B2B973B456553CAB4C28D620B244D3C1;2269.
+ ) 
+Here is how much of TeX's memory you used:
+ 16385 strings out of 478584
+ 261833 string characters out of 2842514
+ 567821 words of memory out of 3000000
+ 34220 multiletter control sequences out of 15000+600000
+ 483444 words of font info for 57 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 74i,16n,79p,1076b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+pdfTeX warning (dest): name{section.18} has been referenced but does not exist,
+ replaced by a fixed one
+
+ <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt
+1440.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
+pi600\tcrm1440.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/
+lh-t2a/dpi600\labx2074.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/lj
+four/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Onigatari\AppData\Local\Mi
+KTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Onigatari\AppData\
+Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Onigatari\
+AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\On
+igatari\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><C:/U
+sers/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cme
+x10.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmmi10.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Onigatari/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Onigatari/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Onigatari/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users
+/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmsy7.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (14 pages, 674747 bytes).
+PDF statistics:
+ 679 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> d0fee722f57e8f17a269f11bff54b8bf57796693
 

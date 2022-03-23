@@ -1,0 +1,7 @@
+@import url('http://getbootstrap.com/dist/css/bootstrap.css');
+
+.btn-right {
+    position: absolute;
+    bottom: 2ch;
+    right: 2ch;
+}

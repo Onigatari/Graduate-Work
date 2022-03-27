@@ -9,4 +9,3 @@
 		4.1.3 Teacher-forcing (Сомнительное решение)
 	4.2 Attention
 5. BLEU - метрика качества
-		

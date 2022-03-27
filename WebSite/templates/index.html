@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
           integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
-    <title> Translation </title>
+    <link rel="shortcut icon" href="/static/icon/puzzle-120.png" type="image/png">
+    <title>Translation</title>
 </head>
 
 <body>
@@ -26,10 +27,11 @@
             <h4 class="my-0 font-weight-normal">⚡️Translation-Demo</h4>
         </div>
         <div class="card-body">
-            <form method="post">
-                <div class="form-group row mb-2">
-                    <label for="inputPassword" class="col-sm-2 col-form-label">
-                        <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            <form method="POST" onsubmit="submitForm()">
+                <div class="form-group row mb-1">
+                    <div class="min-lable-name-text">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"
                              aria-hidden="true" fill="currentColor" focusable="false" role="img" width="1em"
                              height="1em"
                              preserveAspectRatio="xMidYMid meet" viewBox="0 0 18 18">
@@ -37,11 +39,25 @@
                             <path d="M10.3875 4.40625V3.31875H6.58125V1.6875H5.49375V3.31875H1.6875V4.40625H7.52737C7.2261 5.64892 6.63129 6.80125 5.79281 7.76663C5.24624 7.08884 4.8246 6.31923 4.54763 5.49375H3.40575C3.74803 6.60116 4.30202 7.63159 5.037 8.52787C4.2247 9.3158 3.27338 9.94633 2.23125 10.3875L2.63906 11.3989C3.81007 10.9044 4.87658 10.1922 5.78194 9.3C6.67088 10.2044 7.73719 10.9153 8.91394 11.388L9.3 10.3875C8.25187 9.98235 7.3026 9.35754 6.516 8.55506C7.55705 7.36858 8.2892 5.94351 8.6475 4.40625H10.3875Z"></path>
                         </svg>
                         Translation Model
+                    </div>
+                    <label class="col-2 col-form-label">
+                        <div class="label-name-text">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 aria-hidden="true" fill="currentColor" focusable="false" role="img" width="1em"
+                                 height="1em"
+                                 preserveAspectRatio="xMidYMid meet" viewBox="0 0 18 18">
+                                <path d="M15.7435 16.3688H16.9125L13.65 8.21251H12.3722L9.1097 16.3688H10.2788L11.1488 14.1938H14.8735L15.7435 16.3688ZM11.5838 13.1063L13.0084 9.53926L14.4385 13.1063H11.5838Z"></path>
+                                <path d="M10.3875 4.40625V3.31875H6.58125V1.6875H5.49375V3.31875H1.6875V4.40625H7.52737C7.2261 5.64892 6.63129 6.80125 5.79281 7.76663C5.24624 7.08884 4.8246 6.31923 4.54763 5.49375H3.40575C3.74803 6.60116 4.30202 7.63159 5.037 8.52787C4.2247 9.3158 3.27338 9.94633 2.23125 10.3875L2.63906 11.3989C3.81007 10.9044 4.87658 10.1922 5.78194 9.3C6.67088 10.2044 7.73719 10.9153 8.91394 11.388L9.3 10.3875C8.25187 9.98235 7.3026 9.35754 6.516 8.55506C7.55705 7.36858 8.2892 5.94351 8.6475 4.40625H10.3875Z"></path>
+                            </svg>
+                            Translation Model
+                        </div>
                     </label>
                     <div class="col-sm-10">
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>RUS → ENG</option>
-                            <option value="1">RUS → OSS</option>
+                        <select class="form-select" name="temp_model" id="temp_model_ID"
+                                aria-label="Default select example">
+                            <option selected value="0">RUS→ENG | Epochs = 120</option>
+                            <option value="1">RUS→OSS | Epochs = 180</option>
                         </select>
                     </div>
                 </div>
@@ -49,8 +65,9 @@
                 <input type="submit" class="btn btn-secondary btn-right" , value="Перевести">
             </form>
         </div>
+
     </div>
-    {% if output_seq != None %}
+    {% if output_seq and output_seq.strip() %}
         <div class="mt-2 alert alert-success" role="alert">
             {{ output_seq }}
         </div>
@@ -70,4 +87,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
         integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
         crossorigin="anonymous"></script>
+<script src="/static/js/script.js"></script>
 </html>

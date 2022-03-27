@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.7)  15 MAR 2022 15:31
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.7)  20 MAR 2022 22:08
->>>>>>> d0fee722f57e8f17a269f11bff54b8bf57796693
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.7)  27 MAR 2022 19:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -12,8 +8,8 @@ LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-21>
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -28,40 +24,8 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \bibindent=\dimen138
 )
 (core/library.tex
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
-)
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2022/02/13 3.71 The Babel package
-\babel@savecnt=\count193
-\U@D=\dimen139
-\l@unhyphenated=\language79
-
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.de
-f)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count194
-
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/babel-russian\russi
-anb.ldf
-File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
-Language: russian 2020/09/09 1.3k Russian support for the Babel system
-
-
-Package babel Warning: No Cyrillic font encoding has been loaded so far.
-(babel)                A font encoding should be declared before babel.
-(babel)                Default `T2A' encoding will be loaded  on input line 78.
-
-
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2aenc.def
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
@@ -266,6 +230,38 @@ File: t2aenc.dfu 2021/06/21 v1.2n UTF-8 support
    defining Unicode char U+FB05 (decimal 64261)
    defining Unicode char U+FB06 (decimal 64262)
 ))
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
+12.
+
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)) (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.st
+y
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/02/13 3.71 The Babel package
+\babel@savecnt=\count193
+\U@D=\dimen139
+\l@unhyphenated=\language79
+
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.de
+f)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count194
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/babel-russian\russi
+anb.ldf
+File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
+Language: russian 2020/09/09 1.3k Russian support for the Babel system
 Package babel Info: Making " an active character on input line 124.
 Package babel Info: Default for \cyrdash is provided on input line 163.
 )
@@ -278,40 +274,209 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
-)
-
-Package babel Warning: Last declared language option is 'russian',
-(babel)                but the last processed one was 'english'.
-(babel)                The main language can't be set as both a global
-(babel)                and a package option. Use 'main=russian' as
-(babel)                option. Reported on input line 4270.
-
-)
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/extsizes\extsizes.s
-ty
-Package: extsizes 1996/10/08 v1.0 Non Standard LaTeX Package
-
-
-Package ExtSizes Warning: It is better to use one of the extsizes classes,
- if you can.
-
-
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/extsizes\size14.clo
-File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 ))
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/minted\minted.sty
+Package: minted 2021/12/24 v2.6 Yet another Pygments shim for LaTeX
+
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions
+.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.s
+ty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetke
+ys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/fvextra\fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.s
+ty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count195
+)
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.s
+ty
+Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
+\FV@CodeLineNo=\count196
+\FV@InFile=\read3
+\FV@TabBox=\box50
+\c@FancyVerbLine=\count197
+\FV@StepNumber=\count198
+\FV@OutFile=\write3
+)
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)) (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.st
+y
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count199
+\output=\toks19
+\linenoprevgraf=\count266
+\linenumbersep=\dimen140
+\linenumberwidth=\dimen141
+\c@linenumber=\count267
+\c@pagewiselinenumber=\count268
+\c@LN@truepage=\count269
+\c@internallinenumber=\count270
+\c@internallinenumbers=\count271
+\quotelinenumbersep=\dimen142
+\bframerule=\dimen143
+\bframesep=\dimen144
+\bframebox=\box51
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count272
+\c@FV@TrueTabCounter=\count273
+\FV@TabBox@Group=\box52
+\FV@TmpLength=\skip49
+\c@FV@HighlightLinesStart=\count274
+\c@FV@HighlightLinesStop=\count275
+\FV@LoopCount=\count276
+\FV@NCharsBox=\box53
+\FV@BreakIndent=\dimen145
+\FV@BreakIndentNChars=\count277
+\FV@BreakSymbolSepLeft=\dimen146
+\FV@BreakSymbolSepLeftNChars=\count278
+\FV@BreakSymbolSepRight=\dimen147
+\FV@BreakSymbolSepRightNChars=\count279
+\FV@BreakSymbolIndentLeft=\dimen148
+\FV@BreakSymbolIndentLeftNChars=\count280
+\FV@BreakSymbolIndentRight=\dimen149
+\FV@BreakSymbolIndentRightNChars=\count281
+\c@FancyVerbLineBreakLast=\count282
+\FV@LineBox=\box54
+\FV@LineIndentBox=\box55
+\FV@LineWidth=\dimen150
+) (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count283
+\calc@Bcount=\count284
+\calc@Adimen=\dimen151
+\calc@Bdimen=\dimen152
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count285
+\calc@Cskip=\skip52
+)
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/ifplatform\ifplatfo
+rm.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftex
+cmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infware
+rr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfi
+le.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds
+.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.st
+y
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+
+Package ifplatform Warning: 
+    shell escape is disabled, so I can only detect \ifwindows.
+
+)
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
+
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.t
+ex
+\integerpart=\count286
+\decimalpart=\count287
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip53
+\fb@frw=\dimen153
+\fb@frh=\dimen154
+\FrameRule=\dimen155
+\FrameSep=\dimen156
+)
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count288
+\float@exts=\toks20
+\float@box=\box56
+\@float@everytoks=\toks21
+\@floatcapt=\box57
+)
+\minted@appexistsfile=\read4
+\minted@bgbox=\box58
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count289
+\c@minted@pygmentizecounter=\count290
+\@float@every@listing=\toks22
+\c@listing=\count291
+)
+runsystem(if not exist _minted-main mkdir _minted-main)...disabled (restricted)
+.
+
+
+
+! Package minted Error: You must invoke LaTeX with the -shell-escape flag.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \usepackage
+               {subfigure}
+Pass the -shell-escape flag to LaTeX. Refer to the minted.sty documentation for
+ more information.
+
+
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure
 .sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip49
-\subfigcapskip=\skip50
-\subfigcaptopadj=\dimen140
-\subfigbottomskip=\skip51
-\subfigcapmargin=\dimen141
-\subfiglabelskip=\skip52
-\c@subfigure=\count195
-\c@lofdepth=\count196
-\c@subtable=\count197
-\c@lotdepth=\count198
+\subfigtopskip=\skip54
+\subfigcapskip=\skip55
+\subfigcaptopadj=\dimen157
+\subfigbottomskip=\skip56
+\subfigcapmargin=\dimen158
+\subfiglabelskip=\skip57
+\c@subfigure=\count292
+\c@lofdepth=\count293
+\c@subtable=\count294
+\c@lotdepth=\count295
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -319,18 +484,22 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure
 .cfg)
-\subfig@top=\skip53
-\subfig@bottom=\skip54
+\subfig@top=\skip58
+\subfig@bottom=\skip59
 )
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen142
-\WF@size=\dimen143
-\c@WF@wrappedlines=\count199
-\WF@box=\box50
-\WF@everypar=\toks18
+\wrapoverhang=\dimen159
+\WF@size=\dimen160
+\c@WF@wrappedlines=\count296
+\WF@box=\box59
+\WF@everypar=\toks23
 Package: wrapfig 2003/01/31  v 3.6
 ) (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/cmap\cmap.sty
 Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
+
+
+Package cmap Warning: fontenc already loaded - some fonts may be unprocessed.
+
 )
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.s
 ty
@@ -339,11 +508,6 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/autonum\autonum.sty
 Package: autonum 2015/01/18 v0.3.11 Automatic numbering of equations
 
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.s
-ty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count266
-)
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/etextools\etextools
 .sty
 Package: etextools 2010/12/07 v3.1415926 e-TeX more useful tools for LaTeX pack
@@ -364,63 +528,63 @@ Package etex Warning: Extended allocation already in use.
 acro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-\ettl@fter=\count267
-\ettl@for@nested=\count268
+\ettl@fter=\count297
+\ettl@for@nested=\count298
 )
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
-\@mathmargin=\skip55
+\@mathmargin=\skip60
 For additional information on amsmath, use the `?' option.
 
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
-\ex@=\dimen144
+\@emptytoks=\toks24
+\ex@=\dimen161
 ))
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen145
+\pmbraise@=\dimen162
 ) (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.st
 y
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count269
+\inf@bad=\count299
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count270
-\leftroot@=\count271
+\uproot@=\count300
+\leftroot@=\count301
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count272
-\DOTSCASE@=\count273
+\classnum@=\count302
+\DOTSCASE@=\count303
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
-\big@size=\dimen146
+\Mathstrutbox@=\box60
+\strutbox@=\box61
+\big@size=\dimen163
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count274
-\c@MaxMatrixCols=\count275
+\macc@depth=\count304
+\c@MaxMatrixCols=\count305
 \dotsspace@=\muskip16
-\c@parentequation=\count276
-\dspbrk@lvl=\count277
-\tag@help=\toks20
-\row@=\count278
-\column@=\count279
-\maxfields@=\count280
-\andhelp@=\toks21
-\eqnshift@=\dimen147
-\alignsep@=\dimen148
-\tagshift@=\dimen149
-\tagwidth@=\dimen150
-\totwidth@=\dimen151
-\lineht@=\dimen152
-\@envbody=\toks22
-\multlinegap=\skip56
-\multlinetaggap=\skip57
-\mathdisplay@stack=\toks23
+\c@parentequation=\count306
+\dspbrk@lvl=\count307
+\tag@help=\toks25
+\row@=\count308
+\column@=\count309
+\maxfields@=\count310
+\andhelp@=\toks26
+\eqnshift@=\dimen164
+\alignsep@=\dimen165
+\tagshift@=\dimen166
+\tagwidth@=\dimen167
+\totwidth@=\dimen168
+\lineht@=\dimen169
+\@envbody=\toks27
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
@@ -428,26 +592,20 @@ LaTeX Info: Redefining \] on input line 2939.
 Package: textpos 2020/09/26 v1.10
 Package: textpos 2020/09/26 1.10, absolute positioning of text on the page
 Package textpos Info: choosing support for LaTeX3 on input line 61.
-
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks24
-)
-\TP@textbox=\box53
-\TP@holdbox=\box54
-\TPHorizModule=\dimen153
-\TPVertModule=\dimen154
-\TP@margin=\dimen155
-\TP@absmargin=\dimen156
-
+\TP@textbox=\box62
+\TP@holdbox=\box63
+\TPHorizModule=\dimen170
+\TPVertModule=\dimen171
+\TP@margin=\dimen172
+\TP@absmargin=\dimen173
 Grid set 16 x 16 = 37.34424pt x 52.81541pt
-\TPboxrulesize=\dimen157
-\TP@ox=\dimen158
-\TP@oy=\dimen159
-\TP@tbargs=\toks25
+\TPboxrulesize=\dimen174
+\TP@ox=\dimen175
+\TP@oy=\dimen176
+\TP@tbargs=\toks29
 TextBlockOrigin set to 0pt x 0pt
 )
-\c@autonum@counter=\count281
+\c@autonum@counter=\count311
 )
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.s
 ty
@@ -464,15 +622,15 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks26
-\thm@bodyfont=\toks27
-\thm@headfont=\toks28
-\thm@notefont=\toks29
-\thm@headpunct=\toks30
-\thm@preskip=\skip58
-\thm@postskip=\skip59
-\thm@headsep=\skip60
-\dth@everypar=\toks31
+\thm@style=\toks30
+\thm@bodyfont=\toks31
+\thm@headfont=\toks32
+\thm@notefont=\toks33
+\thm@headpunct=\toks34
+\thm@preskip=\skip63
+\thm@postskip=\skip64
+\thm@headsep=\skip65
+\dth@everypar=\toks35
 )
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/was\upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
@@ -502,30 +660,30 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 .def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen160
-\Gin@req@width=\dimen161
+\Gin@req@height=\dimen177
+\Gin@req@width=\dimen178
 )
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.s
 ty
-\lst@mode=\count282
-\lst@gtempboxa=\box55
-\lst@token=\toks32
-\lst@length=\count283
-\lst@currlwidth=\dimen162
-\lst@column=\count284
-\lst@pos=\count285
-\lst@lostspace=\dimen163
-\lst@width=\dimen164
-\lst@newlines=\count286
-\lst@lineno=\count287
-\lst@maxwidth=\dimen165
+\lst@mode=\count312
+\lst@gtempboxa=\box64
+\lst@token=\toks36
+\lst@length=\count313
+\lst@currlwidth=\dimen179
+\lst@column=\count314
+\lst@pos=\count315
+\lst@lostspace=\dimen180
+\lst@width=\dimen181
+\lst@newlines=\count316
+\lst@lineno=\count317
+\lst@maxwidth=\dimen182
 
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.st
 y
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count288
-\lst@skipnumbers=\count289
-\lst@framebox=\box56
+\c@lstnumber=\count318
+\lst@skipnumbers=\count319
+\lst@framebox=\box65
 )
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.c
 fg
@@ -536,43 +694,34 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.s
 ty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip61
-\multirow@cntb=\count290
-\multirow@dima=\skip62
-\bigstrutjot=\dimen166
+\multirow@colwidth=\skip66
+\multirow@cntb=\count320
+\multirow@dima=\skip67
+\bigstrutjot=\dimen183
 )
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count291
-\mult@box=\box57
-\multicol@leftmargin=\dimen167
-\c@unbalance=\count292
-\c@collectmore=\count293
-\doublecol@number=\count294
-\multicoltolerance=\count295
-\multicolpretolerance=\count296
-\full@width=\dimen168
-\page@free=\dimen169
-\premulticols=\dimen170
-\postmulticols=\dimen171
-\multicolsep=\skip63
-\multicolbaselineskip=\skip64
-\partial@page=\box58
-\last@line=\box59
-\maxbalancingoverflow=\dimen172
-\mult@rightbox=\box60
-\mult@grightbox=\box61
-\mult@firstbox=\box62
-\mult@gfirstbox=\box63
-\@tempa=\box64
-\@tempa=\box65
-\@tempa=\box66
-\@tempa=\box67
-\@tempa=\box68
-\@tempa=\box69
-\@tempa=\box70
-\@tempa=\box71
-\@tempa=\box72
+\c@tracingmulticols=\count321
+\mult@box=\box66
+\multicol@leftmargin=\dimen184
+\c@unbalance=\count322
+\c@collectmore=\count323
+\doublecol@number=\count324
+\multicoltolerance=\count325
+\multicolpretolerance=\count326
+\full@width=\dimen185
+\page@free=\dimen186
+\premulticols=\dimen187
+\postmulticols=\dimen188
+\multicolsep=\skip68
+\multicolbaselineskip=\skip69
+\partial@page=\box67
+\last@line=\box68
+\maxbalancingoverflow=\dimen189
+\mult@rightbox=\box69
+\mult@grightbox=\box70
+\mult@firstbox=\box71
+\mult@gfirstbox=\box72
 \@tempa=\box73
 \@tempa=\box74
 \@tempa=\box75
@@ -600,15 +749,24 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box97
 \@tempa=\box98
 \@tempa=\box99
-\c@minrows=\count297
-\c@columnbadness=\count298
-\c@finalcolumnbadness=\count299
-\last@try=\dimen173
-\multicolovershoot=\dimen174
-\multicolundershoot=\dimen175
-\mult@nat@firstbox=\box100
-\colbreak@box=\box101
-\mc@col@check@num=\count300
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\c@minrows=\count327
+\c@columnbadness=\count328
+\c@finalcolumnbadness=\count329
+\last@try=\dimen190
+\multicolovershoot=\dimen191
+\multicolundershoot=\dimen192
+\mult@nat@firstbox=\box109
+\colbreak@box=\box110
+\mc@col@check@num=\count330
 )
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/doublestroke\dsfont
 .sty
@@ -620,21 +778,29 @@ Package: caption 2022/02/20 v3.6 Customizing captions (AR)
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.st
 y
 Package: caption3 2022/01/07 v2.3 caption3 kernel (AR)
-\caption@tempdima=\dimen176
-\captionmargin=\dimen177
-\caption@leftmargin=\dimen178
-\caption@rightmargin=\dimen179
-\caption@width=\dimen180
-\caption@indent=\dimen181
-\caption@parindent=\dimen182
-\caption@hangindent=\dimen183
+\caption@tempdima=\dimen193
+\captionmargin=\dimen194
+\caption@leftmargin=\dimen195
+\caption@rightmargin=\dimen196
+\caption@width=\dimen197
+\caption@indent=\dimen198
+\caption@parindent=\dimen199
+\caption@hangindent=\dimen256
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count301
-\c@continuedfloat=\count302
+\c@caption@flags=\count331
+\c@continuedfloat=\count332
+Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: wrapfig package is loaded.
+)
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\stmaryrd.s
+ty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 )
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.s
 ty
@@ -644,30 +810,6 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 ty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.s
-ty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-)
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftex
-cmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infware
-rr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetke
-ys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvde
 finekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -682,13 +824,9 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions
-.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-)
-\@linkdim=\dimen184
-\Hy@linkcounter=\count303
-\Hy@pagecounter=\count304
+\@linkdim=\dimen257
+\Hy@linkcounter=\count333
+\Hy@pagecounter=\count334
 
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
@@ -704,11 +842,7 @@ nguages
 ty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds
-.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count305
+\Hy@SavedSpaceFactor=\count335
 
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
@@ -725,13 +859,13 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count306
+\c@Hy@tempcnt=\count336
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen185
+\XeTeXLinkMargin=\dimen258
 
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -741,9 +875,9 @@ calc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count307
-\Field@Width=\dimen186
-\Fld@charsize=\dimen187
+\Fld@menulength=\count337
+\Field@Width=\dimen259
+\Fld@charsize=\dimen260
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -759,9 +893,9 @@ ty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count308
-\c@Item=\count309
-\c@Hfootnote=\count310
+\Hy@abspage=\count338
+\c@Item=\count339
+\c@Hfootnote=\count340
 )
 Package hyperref Info: Driver: hpdftex.
 
@@ -775,8 +909,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count311
-\c@bookmark@seq@number=\count312
+\Fld@listcount=\count341
+\c@bookmark@seq@number=\count342
 
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\reru
 nfilecheck.sty
@@ -789,7 +923,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip65
+\Hy@SectionHShift=\skip70
 ))
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.s
 ty
@@ -798,358 +932,57 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count313
-\Gm@cntv=\count314
-\c@Gm@tempcnt=\count315
-\Gm@bindingoffset=\dimen188
-\Gm@wd@mp=\dimen189
-\Gm@odd@mp=\dimen190
-\Gm@even@mp=\dimen191
-\Gm@layoutwidth=\dimen192
-\Gm@layoutheight=\dimen193
-\Gm@layouthoffset=\dimen194
-\Gm@layoutvoffset=\dimen195
-\Gm@dimlist=\toks33
+\Gm@cnth=\count343
+\Gm@cntv=\count344
+\c@Gm@tempcnt=\count345
+\Gm@bindingoffset=\dimen261
+\Gm@wd@mp=\dimen262
+\Gm@odd@mp=\dimen263
+\Gm@even@mp=\dimen264
+\Gm@layoutwidth=\dimen265
+\Gm@layoutheight=\dimen266
+\Gm@layouthoffset=\dimen267
+\Gm@layoutvoffset=\dimen268
+\Gm@dimlist=\toks37
 
 (C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.c
 fg))
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
--pdftex.def
-File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count316
-\l__pdf_internal_box=\box102
-) (main.aux
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 2
-6.
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)<<t2a.cmap>>)
-\openout1 = `main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Info: Redefining \th on input line 4.
-\autonum@environmentWidth=\skip66
-<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
-
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.
+cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
-
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
-f.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
-\scratchdimen=\dimen196
-\scratchbox=\box103
-\nofMPsegments=\count318
-\nofMParguments=\count319
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count320
-\MPscratchDim=\dimen197
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
-\everyMPtoPDFconversion=\toks35
-)
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstop
-df-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-s
-ys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-\c@lstlisting=\count323
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
-Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 4.
-
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.st
-y
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.s
-ty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\ge
-ttitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count324
-)
-LaTeX Info: Redefining \ref on input line 4.
-LaTeX Info: Redefining \pageref on input line 4.
-LaTeX Info: Redefining \nameref on input line 4.
- (main.out) (main.out)
-\@outlinefile=\write3
-\openout3 = `main.out'.
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > ma
+in.aex <nul: /p x=^%~$PATH:i>> main.aex)...disabled (restricted).
 
 
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(85.35826pt, 469.47049pt, 42.67912pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=469.47049pt
-* \textheight=731.23584pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
-* \topmargin=-54.36449pt
-* \headheight=14.0pt
-* \headsep=25.0pt
-* \topskip=14.0pt
-* \footskip=28.45274pt
-* \marginparwidth=15.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+! Emergency stop.
+<read 4> 
+         
+l.4 \begin{document}
+                    
+*** (cannot \read from terminal in nonstop modes)
 
-(core/title_page.tex
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-
- []
-
-) (core/content.tex (main.toc [0
-
-{C:/Users/Onigatari/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
-\tf@toc=\write4
-\openout4 = `main.toc'.
-
- [1])
-\c@theorem=\count325
- [2
-
-] [3
-
-]
-<<<<<<< HEAD
-<img/1.png, id=86, 346.29375pt x 602.25pt>
-=======
-<img/1.png, id=91, 346.29375pt x 602.25pt>
->>>>>>> d0fee722f57e8f17a269f11bff54b8bf57796693
-File: img/1.png Graphic file (type png)
-<use img/1.png>
-Package pdftex.def Info: img/1.png  used on input line 45.
-(pdftex.def)             Requested size: 106.3407pt x 184.9429pt.
-
-Overfull \hbox (4.36066pt too wide) in paragraph at lines 56--57
-[]\T2A/cmr/bx/n/14.4 Функция ак-ти-ва-ции $\OML/cmm/m/it/14.4 \OT1/cmr/m/n/14.
-4 (\OML/cmm/m/it/14.4 z\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 яв-ля-ет-ся аб-ст
-рак-ци-ей, пред-став-ля-ю-щей ско-
- []
-
-[4
-
- <./img/1.png>] [5
-
-]
-<<<<<<< HEAD
-<img/3.png, id=101, 977.8131pt x 256.91985pt>
-=======
-<img/3.png, id=106, 977.8131pt x 256.91985pt>
->>>>>>> d0fee722f57e8f17a269f11bff54b8bf57796693
-File: img/3.png Graphic file (type png)
-<use img/3.png>
-Package pdftex.def Info: img/3.png  used on input line 105.
-(pdftex.def)             Requested size: 433.14853pt x 113.81102pt.
- [6 <./img/3.png>]
-<<<<<<< HEAD
-<img/rnn_unfolded.png, id=110, 1115.6079pt x 390.0171pt>
-=======
-<img/rnn_unfolded.png, id=115, 1115.6079pt x 390.0171pt>
->>>>>>> d0fee722f57e8f17a269f11bff54b8bf57796693
-File: img/rnn_unfolded.png Graphic file (type png)
-<use img/rnn_unfolded.png>
-Package pdftex.def Info: img/rnn_unfolded.png  used on input line 134.
-(pdftex.def)             Requested size: 469.47046pt x 164.12743pt.
-<<<<<<< HEAD
-<img/RNN.png, id=111, 1148.29pt x 835.12pt>
-=======
-<img/RNN.png, id=116, 1148.29pt x 835.12pt>
->>>>>>> d0fee722f57e8f17a269f11bff54b8bf57796693
-File: img/RNN.png Graphic file (type png)
-<use img/RNN.png>
-Package pdftex.def Info: img/RNN.png  used on input line 175.
-(pdftex.def)             Requested size: 398.33858pt x 289.69682pt.
- [7
-
- <./img/rnn_unfolded.png>] [8 <./img/RNN.png>] [9
-
-]
-Overfull \hbox (0.76138pt too wide) in paragraph at lines 230--231
-[]\T2A/cmr/m/n/14.4 где вен-тиль об-нов-ле-ния $\OML/cmm/m/it/14.4 z[]$ \T2A/cm
-r/m/n/14.4 ре-ша-ет, на-сколь-ко устрой-ство об-нов-ля-ет свою
- []
-
-[10
-
-] [11
-
-]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-<<<<<<< HEAD
-265.
-=======
-267.
->>>>>>> d0fee722f57e8f17a269f11bff54b8bf57796693
-
-(C:\Users\Onigatari\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-<<<<<<< HEAD
-Overfull \hbox (9.95346pt too wide) in paragraph at lines 265--266
-=======
-Overfull \hbox (9.95346pt too wide) in paragraph at lines 267--268
->>>>>>> d0fee722f57e8f17a269f11bff54b8bf57796693
-[]\T2A/cmr/m/n/14.4 Полностью взят с ба-зы дан-ных: []$\T2A/cmtt/m/n/14.4 https
- : / / tatoeba . org / ru / downloads$[]
- []
-
-<<<<<<< HEAD
-[12
-
-] (main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C77E9FD95144EBA7B0CBEF354EE9496B;1870.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 16355 strings out of 478584
- 261639 string characters out of 2842514
- 567589 words of memory out of 3000000
- 34207 multiletter control sequences out of 15000+600000
- 483097 words of font info for 56 fonts, out of 8000000 for 9000
+ 18635 strings out of 478584
+ 310548 string characters out of 2842514
+ 661013 words of memory out of 3000000
+ 36574 multiletter control sequences out of 15000+600000
+ 471122 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,16n,79p,1076b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
-tt1440.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\tcrm1440.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/l
-h/lh-t2a/dpi600\labx2074.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/
-ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\f
-onts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Onigatari\AppData\Local\
-MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Onigatari\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Onigatar
-i\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\
-Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><C:
-/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mex10.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmmi10.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Onigatari/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Onigatari/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Onigatari
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Use
-rs/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmsy7.pfb>
-Output written on main.pdf (13 pages, 653316 bytes).
-PDF statistics:
- 622 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-
-Overfull \hbox (12.8986pt too wide) in paragraph at lines 273--274
-\T2A/cmr/m/n/14.4 по-мо-щью элек-трон-ных сло-ва-рей про-грам-мы Lingvo. []$\T2
-A/cmtt/m/n/14.4 https : / / ironau .
- []
-
-[12
-
-]
-Underfull \hbox (badness 1275) in paragraph at lines 284--285
-[]\T2A/cmr/m/n/14.4 Michael I. Jordan - Serial Order: A Parallel Distributed Pr
-ocessing
- []
-
-[13] (main.aux)
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 2E92681B2EFD8ED79CC97BD231FF1B52;2152
-(rerunfilecheck)             After:  B2B973B456553CAB4C28D620B244D3C1;2269.
- ) 
-Here is how much of TeX's memory you used:
- 16385 strings out of 478584
- 261833 string characters out of 2842514
- 567821 words of memory out of 3000000
- 34220 multiletter control sequences out of 15000+600000
- 483444 words of font info for 57 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 74i,16n,79p,1076b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-pdfTeX warning (dest): name{section.18} has been referenced but does not exist,
- replaced by a fixed one
-
- <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt
-1440.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
-pi600\tcrm1440.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/
-lh-t2a/dpi600\labx2074.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fonts/pk/lj
-four/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\Onigatari\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Onigatari\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Onigatari\AppData\
-Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Onigatari\
-AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\On
-igatari\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><C:/U
-sers/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cme
-x10.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Onigatari/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Onigatari/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Onigatari/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users
-/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmsy7.pfb><C:/Users/Onigatari/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (14 pages, 674747 bytes).
-PDF statistics:
- 679 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> d0fee722f57e8f17a269f11bff54b8bf57796693
-
+ 80i,0n,84p,438b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

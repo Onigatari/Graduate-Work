@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-import translate
+import translate, os
 
 app = Flask(__name__)
 
@@ -13,4 +13,5 @@ def index():
     return render_template('index.html', output_seq=output_seq, input_seq=input_seq)
 
 if __name__ == '__main__':
-    app.run()
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)

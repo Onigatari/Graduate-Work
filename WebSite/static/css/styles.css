@@ -1,27 +1,11 @@
 @import url('http://getbootstrap.com/dist/css/bootstrap.css');
 
-.btn-right {
-    position: absolute;
-    bottom: 2ch;
-    right: 2ch;
+html {
+    height: 100%;
 }
 
-.form-control mb-5 {
-    width: 100%;
-}
-
-@media screen and (max-width: 1210px) {
-    .label-name-text {
-        display: none;
-    }
-
-    .col-sm-10 {
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 1210px) {
-    .min-lable-name-text {
-        display: none;
-    }
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }

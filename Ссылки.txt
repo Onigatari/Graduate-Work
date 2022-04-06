@@ -1,0 +1,17 @@
+GitHub: https://github.com/bentrevett/pytorch-seq2seq
+Визуализация Seq2seq: https://habr.com/ru/post/486158/
+Mini Seq2seq: https://github.com/keon/seq2seq
+История развития машинного перевода: https://vc.ru/future/32616-mashinnyy-perevod-ot-holodnoy-voyny-do-glubokogo-obucheniya
+Лекция Seq2Seq: https://www.youtube.com/watch?v=N3TLYsn0TU8
+Лекция Внимание (Attention): https://www.youtube.com/watch?v=G4vT5cvJSxY
+Seq2seq на PyTorch: https://github.com/spro/practical-pytorch/blob/master/seq2seq-translation/seq2seq-translation.ipynb
+Оригинальная статься: https://proceedings.neurips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf
+
+https://github.com/tensorflow/nmt
+
+https://ru.wikipedia.org/wiki/Авторегрессионная_модель
+https://www.helenkapatsa.ru/funktsiia-potieri/
+https://medium.com/analytics-vidhya/neural-machine-translation-using-simple-seq2seq-517b5ce1ae0f
+https://tatoeba.org/ru/downloads
+https://github.com/vasiliyeskin/bentrevett-pytorch-seq2seq_ru/blob/master/3%20-%20Neural%20Machine%20Translation%20by%20Jointly%20Learning%20to%20Align%20and%20Translate.ipynb
+https://github.com/IvLabs/Natural-Language-Processing

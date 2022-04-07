@@ -1,0 +1,305 @@
+@import url("http://getbootstrap.com/dist/css/bootstrap.css");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.theme-light {
+  --color-background: #FFFFFF;
+  --color-background-nav: #EFF1F4;
+  --font-color: #1F2128;
+  --font-color-nav: #AAAAAA;
+  --line-color: #AAAAAA;
+  --glass: #FFFFFF33;
+  --glass-icon: #FFFFFF4C;
+}
+
+.theme-dark {
+  --color-background: #282B30;
+  --color-background-nav: #1F2128;
+  --font-color: #FFFFFF;
+  --font-color-nav: #56585D;
+  --line-color: #FFFFFF;
+  --glass: #FFFFFF33;
+  --glass-icon: #FFFFFF4C;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+input {
+  margin: auto;
+  display: block;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 1em 3em 1em 1em;
+  font-size: 3rem;
+  position: center;
+  color: #FFFFFF;
+}
+
+input::-webkit-input-placeholder {
+  color: #DDDDDD;
+}
+
+input::-moz-placeholder {
+  color: #DDDDDD;
+}
+
+input:-ms-input-placeholder {
+  color: #DDDDDD;
+}
+
+input::-ms-input-placeholder {
+  color: #DDDDDD;
+}
+
+input::placeholder {
+  color: #DDDDDD;
+}
+
+.output {
+  margin: auto;
+  display: block;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 1em 3em 1em 1em;
+  font-size: 3rem;
+  position: center;
+  color: #FFFFFF;
+}
+
+.sidenav {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 21.25rem;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: var(--color-background-nav);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 20px 20px 0px;
+}
+
+.book {
+  position: absolute;
+  width: 6.25rem;
+  height: 6.25rem;
+  left: 24.6875rem;
+  top: 3.625rem;
+}
+
+.main_label {
+  position: absolute;
+  width: 75rem;
+  height: 7.5rem;
+  left: 31.6875rem;
+  top: 2.8125rem;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(40px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+  line-height: 6.0625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--font-color);
+}
+
+.model_label {
+  position: absolute;
+  margin-top: 1em;
+  margin-left: 0.5em;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--font-color);
+}
+
+.source_sequence {
+  position: absolute;
+  left: 23.75rem;
+  top: 12.5rem;
+  font-family: "Inria Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(8px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+  line-height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--font-color);
+}
+
+.target_sequence {
+  position: absolute;
+  left: 23.75rem;
+  top: 32.5rem;
+  font-family: "Inria Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(8px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+  line-height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--font-color);
+}
+
+.input_area {
+  position: absolute;
+  width: 93.75rem;
+  height: 10rem;
+  left: 23.125rem;
+  top: 16.25rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7F73D5), to(#6057A2));
+  background: linear-gradient(180deg, #7F73D5 0%, #6057A2 100%);
+  border-radius: 1.25rem;
+}
+
+.input_area_back {
+  position: absolute;
+  width: 93.75rem;
+  height: 10rem;
+  left: 23.75rem;
+  top: 16.875rem;
+  background: #A79EE4;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.output_area {
+  position: absolute;
+  width: 93.75rem;
+  height: 10rem;
+  left: 23.125rem;
+  top: 36.25rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3F8CFF), to(#326FCC));
+  background: linear-gradient(180deg, #3F8CFF 0%, #326FCC 100%);
+  border-radius: 1.25rem;
+}
+
+.output_area_back {
+  position: absolute;
+  width: 93.75rem;
+  height: 10rem;
+  left: 23.75rem;
+  top: 36.875rem;
+  background: #A0D7E7;
+  border-radius: 1.25rem;
+  z-index: -1;
+}
+
+.btn-dark {
+  position: absolute;
+  width: 25rem;
+  height: 6.25rem;
+  left: 92.5rem;
+  top: 50rem;
+  font-family: "Inria Sans", sans-serif;
+  background: #1b1d21;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1.875rem;
+  font-size: 2.5rem;
+  color: #FFFFFF;
+}
+
+.btn-dark:hover {
+  background: #2f2f31;
+}
+
+.hr-line {
+  position: absolute;
+  width: 18.75rem;
+  height: 0.75rem;
+  left: 1.25rem;
+  top: 90%;
+  border: none;
+  color: var(--line-color);
+  background-color: var(--line-color);
+  border-radius: 20px;
+}
+
+.footer {
+  position: absolute;
+  width: 18.75rem;
+  height: 2.6875rem;
+  left: 1.25rem;
+  top: 92%;
+  font-family: "Inria Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--font-color-nav);
+}
+
+.text-footer {
+  position: absolute;
+  left: 8.125rem;
+  top: 0.5rem;
+}
+
+.btn-left {
+  float: right;
+}
+
+select {
+  position: absolute;
+  margin-top: 8em;
+  margin-left: 0.5em;
+  /* Reset */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  /* Personalize */
+  width: 20em;
+  height: 3em;
+  padding: 0 4em 0 1em;
+  background: var(--color-background);
+  color: var(--font-color);
+  border-radius: 0.25em;
+  -webkit-box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  /* <option> colors */
+  /* Remove focus outline */
+}
+select option {
+  color: inherit;
+  background-color: var(--color-background);
+}
+select:focus {
+  outline: none;
+}

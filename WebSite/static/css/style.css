@@ -1,0 +1,293 @@
+@import url("http://getbootstrap.com/dist/css/bootstrap.css");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+div.footer {
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.up {
+    flex: 1;
+}
+
+div.down {
+    flex: none;
+}
+
+.model_label {
+    position: absolute;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.125rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: var(--font-color);
+}
+
+select {
+    position: absolute;
+    margin-top: 8em;
+    margin-left: 0.5em;
+    margin-right: 1em;
+    /* Reset */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* appearance: none; */
+    border: 0;
+    outline: 0;
+    font: inherit;
+    /* Personalize */
+    width: 95%;
+    height: 3rem;
+    padding: 0 4em 0 1em;
+    background: var(--color-background);
+    color: var(--font-color);
+    border-radius: 0.25em;
+    -webkit-box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    /* <option> colors */
+    /* Remove focus outline */
+}
+
+select option {
+    color: inherit;
+    background-color: var(--color-background);
+}
+
+select:focus {
+    outline: none;
+}
+
+div.app {
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.label_box {
+    display: flex;
+    align-items: center;
+}
+
+.book {
+    display: flex;
+    margin-left: 2vw;
+    margin-top: 5vh;
+    margin-bottom: 4rem;
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+.main_label {
+    width: 75rem;
+    height: 7.5rem;
+    margin-left: 2vw;
+    margin-top: 5vh;
+    margin-bottom: 4rem;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(40px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    line-height: 6.0625rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: var(--font-color);
+}
+
+input {
+    margin: auto;
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 1em 3em 1em 1em;
+    font-size: 3rem;
+    position: center;
+    color: #ffffff;
+}
+
+input::-webkit-input-placeholder {
+    color: #dddddd;
+}
+
+input::-moz-placeholder {
+    color: #dddddd;
+}
+
+input:-ms-input-placeholder {
+    color: #dddddd;
+}
+
+input::-ms-input-placeholder {
+    color: #dddddd;
+}
+
+input::placeholder {
+    color: #dddddd;
+}
+
+.output {
+    margin: auto;
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 1em 3em 1em 1em;
+    font-size: 3rem;
+    position: center;
+    color: #ffffff;
+}
+
+.container_up {
+    position: relative;
+    width: 90%;
+    height: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.input_area {
+    height: 10rem;
+    width: 100%;
+
+    background: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            from(#7f73d5),
+            to(#6057a2)
+    );
+    background: linear-gradient(180deg, #7f73d5 0%, #6057a2 100%);
+    border-radius: 1.25rem;
+}
+
+.input_area_back {
+    position: absolute;
+
+    height: 10rem;
+    width: 100%;
+
+    top: 6%;
+    left: 1%;
+    background: #a79ee4;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.container_down {
+    position: relative;
+    width: 90%;
+    height: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.output_area {
+    height: 10rem;
+    width: 100%;
+
+    background: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            from(#3f8cff),
+            to(#326fcc)
+    );
+    background: linear-gradient(180deg, #3f8cff 0%, #326fcc 100%);
+    border-radius: 1.25rem;
+}
+
+.output_area_back {
+    position: absolute;
+
+    height: 10rem;
+    width: 100%;
+
+    top: 6%;
+    left: 1%;
+    background: #a0d7e7;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.source_sequence {
+    margin-left: 5%;
+    margin-bottom: 1%;
+    font-family: "Inria Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(8px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    line-height: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: var(--font-color);
+}
+
+.target_sequence {
+    margin-left: 5%;
+    margin-bottom: 1%;
+    font-family: "Inria Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(8px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    line-height: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: var(--font-color);
+}
+
+.container_btn {
+    display: inline-flex;
+    width: 90%;
+    height: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.btn-dark {
+    position: fixed;
+    background-color: #ae978f;
+    right: 4%;
+    bottom: 4%;
+    width: 25rem;
+    height: 5rem;
+    font-family: "Inria Sans", sans-serif;
+    background: #1b1d21;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.875rem;
+    font-size: 2.5rem;
+    color: #ffffff;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.btn-dark:hover {
+    background: #2f2f31;
+}

@@ -24,7 +24,6 @@ type_mode = {
     "1" : "rus-oss.txt-180"
 }
 
-
 def load_model(path):
     json_file = open(f'static/date/{path}-model.json', 'r')
     loaded_model_json = json_file.read()

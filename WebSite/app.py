@@ -8,7 +8,7 @@ def index():
     input_seq = ""
     output_seq = None
     if request.method == 'POST' and request.form['input_sequence']:
-        output_seq = translate.predict(request.form['input_sequence'], request.form['temp_model'])
+        output_seq = translate.translation(request.form['input_sequence'], request.form['temp_model'])
         input_seq = request.form['input_sequence']
     return render_template('index.html', output_seq=output_seq, input_seq=input_seq)
 

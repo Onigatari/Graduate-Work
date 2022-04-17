@@ -4,3 +4,5 @@ numpy~=1.22.3
 sklearn~=0.0
 scikit-learn~=1.0.2
 keras~=2.8.0
+tensorflow~=2.8.0
+tensorflow_text~=2.8.1

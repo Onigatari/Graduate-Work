@@ -18,31 +18,6 @@
 </head>
 <body>
 <form method="POST" onsubmit="submitForm()">
-    <aside
-            class="sidebar position-fixed top-0 left-0 overflow-auto h-100 float-left"
-            id="show-side-navigation1"
-    >
-        <div class="footer">
-            <div class="up">
-                <h3 class="model_label">Model</h3>
-                <select
-                        name="temp_model"
-                        id="temp_model_ID"
-                        aria-label="Default select example"
-                >
-                    <option selected value="0">RUS→ENG | Epochs = 120</option>
-                    <option value="1">RUS→OSS | Epochs = 180</option>
-                </select>
-            </div>
-            <div class="down">
-                <label id="switch" class="switch">
-                    <input type="checkbox" onchange="toggleTheme()" id="slider"/>
-                    <span class="slider round"></span>
-                </label>
-            </div>
-        </div>
-    </aside>
-
     <section id="wrapper">
         <div class="label_box">
             <img class="book" src="../static/icon/story-book-96.png"/>
@@ -78,6 +53,31 @@
             </div>
         </div>
     </section>
+
+    <aside
+            class="sidebar position-fixed top-0 left-0 overflow-auto h-100 float-left"
+            id="show-side-navigation1"
+    >
+        <div class="footer">
+            <div class="up">
+                <h3 class="model_label">Model</h3>
+                <select
+                        name="temp_model"
+                        id="temp_model_ID"
+                        aria-label="Default select example"
+                >
+                    <option selected value="0">RUS → ENG | Mini</option>
+                    <option value="1">RUS → OSS</option>
+                </select>
+            </div>
+            <div class="down">
+                <label id="switch" class="switch">
+                    <input type="checkbox" onchange="toggleTheme()" id="slider"/>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+    </aside>
 </form>
 </body>
 <script

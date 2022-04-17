@@ -2,7 +2,7 @@
   position: relative;
   display: inline-block;
   margin-left: 1vw;
-  width: 50px;
+  width: 60px;
   height: 14px;
 }
 
@@ -31,10 +31,8 @@
   content: "";
   height: 36px;
   width: 36px;
-  left: 0px;
-  bottom: 4px;
+  bottom: 1px;
   top: 0;
-  bottom: 0;
   margin: auto 0;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -47,8 +45,8 @@
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(24px);
-  transform: translateX(24px);
+  -webkit-transform: translateX(26px);
+  transform: translateX(26px);
   background: #ffffff
     url("https://img.icons8.com/ios-glyphs/30/000000/sun--v1.png");
   background-repeat: no-repeat;
@@ -57,7 +55,7 @@ input:checked + .slider:before {
 
 /* Rounded sliders */
 .slider.round {
-  border-radius: 28px;
+  border-radius: 30px;
 }
 
 .slider.round:before {

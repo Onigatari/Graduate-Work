@@ -66,8 +66,10 @@
                         id="temp_model_ID"
                         aria-label="Default select example"
                 >
-                    <option selected value="0">RUS → ENG | Mini</option>
-                    <option value="1">RUS → OSS</option>
+                    {% for key, value in path_model.items() %}
+                        <option value={{ key }}>{{ value }}</option>
+
+                    {% endfor %}
                 </select>
             </div>
             <div class="down">

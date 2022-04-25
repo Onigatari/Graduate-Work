@@ -34,6 +34,7 @@ div.down {
     -ms-flex-align: center;
     align-items: center;
     color: var(--font-color);
+    transition: all 0.3s ease-in-out;
 }
 
 input {
@@ -171,6 +172,7 @@ input::placeholder {
     -ms-flex-align: center;
     align-items: center;
     color: var(--font-color);
+    transition: all 0.3s ease-in-out;
 }
 
 .target_sequence {
@@ -188,6 +190,7 @@ input::placeholder {
     -ms-flex-align: center;
     align-items: center;
     color: var(--font-color);
+    transition: all 0.3s ease-in-out;
 }
 
 .container_btn {
@@ -241,6 +244,7 @@ select {
     margin-top: 8em;
     margin-left: 1.5em;
     margin-right: 1em;
+    transition: all 0.3s ease-in-out;
     /* Reset */
     -webkit-appearance: none;
     -moz-appearance: none;

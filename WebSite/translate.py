@@ -129,23 +129,12 @@ class Translator(tf.Module):
         return self.translate(input_text)
 
 path_model = {
-    '0': 'static/model/1. RUS-OSS GRU-[1024]-EMD_DIM[256]-BatchSize[64]-Epochs[15]',
-    '1': 'static/model/2. RUS-OSS GRU-[1024]-EMD_DIM[256]-BatchSize[64]-Epochs[20]',
-    '2': 'static/model/3. RUS-OSS GRU-[1024]-EMD_DIM[128]-BatchSize[64]-Epochs[15]',
-    '3': 'static/model/4. RUS-OSS GRU-[1024]-EMD_DIM[128]-BatchSize[64]-Epochs[20]',
-    '4': 'static/model/5. RUS-OSS GRU-[512]-EMD_DIM[256]-BatchSize[64]-Epochs[15]',
-    '5': 'static/model/6. RUS-OSS GRU-[512]-EMD_DIM[256]-BatchSize[64]-Epochs[20]',
-    '6': 'static/model/7. RUS-OSS GRU-[512]-EMD_DIM[128]-BatchSize[64]-Epochs[15]',
-    '7': 'static/model/8. RUS-OSS GRU-[512]-EMD_DIM[128]-BatchSize[64]-Epochs[20]',
-    '8': 'static/model/9. RUS-OSS GRU-[1024]-EMD_DIM[256]-BatchSize[32]-Epochs[15]',
-    '9': 'static/model/10. RUS-OSS GRU-[1024]-EMD_DIM[256]-BatchSize[32]-Epochs[20]',
-    '10': 'static/model/11. RUS-OSS GRU-[512]-EMD_DIM[128]-BatchSize[32]-Epochs[15]',
-    '11': 'static/model/12. RUS-OSS GRU-[512]-EMD_DIM[128]-BatchSize[32]-Epochs[20]',
-    '12': 'static/model/RUS-ENG-MINI GRU-[1024]-EMD_DIM[256]-BatchSize[128]-Epochs[5]'
+    '0': 'RUS-OSS',
+    '1': 'RUS-ENG-MINI',
 }
 
 def translation(input_sequence, type):
-    reloaded = tf.saved_model.load(path_model[type])
+    reloaded = tf.saved_model.load(f'static/model/{path_model[type]}')
     input_text = tf.constant([input_sequence])
 
     result = reloaded.tf_translate(input_text)

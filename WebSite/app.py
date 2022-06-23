@@ -1,5 +1,7 @@
 from flask import Flask, render_template, request
-import translate, os
+
+import os
+import translate
 
 app = Flask(__name__)
 
@@ -17,6 +19,7 @@ def index():
         output_seq = translate.translation(request.form['input_sequence'], request.form['temp_model'])
         input_seq = request.form['input_sequence']
     return render_template('index.html', output_seq=output_seq, input_seq=input_seq, path_model=path_model)
+
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))

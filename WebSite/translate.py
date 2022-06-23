@@ -1,6 +1,5 @@
 import tensorflow as tf
 import tensorflow_text as tf_text
-import model
 
 cur_model = ""
 reloaded = None
@@ -11,16 +10,17 @@ path_model = {
 }
 
 
-def load_model(type):
+def load_model(model_type):
     global cur_model
     global reloaded
 
-    if (cur_model != type):
-        cur_model = type
-        reloaded = tf.saved_model.load(f'static/model/{path_model[type]}')
+    if cur_model != model_type:
+        cur_model = model_type
+        reloaded = tf.saved_model.load(f'static/model/{path_model[model_type]}')
 
-def translation(input_sequence, type):
-    load_model(type)
+
+def translation(input_sequence, model_type):
+    load_model(model_type)
 
     input_text = tf.constant([input_sequence])
     result = reloaded.tf_translate(input_text)

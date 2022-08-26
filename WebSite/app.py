@@ -6,7 +6,6 @@ import tensorflow_text
 import os
 from pathlib import Path
 
-
 app = Flask(__name__)
 
 path_model = {
@@ -16,11 +15,11 @@ path_model = {
 
 list_model = {}
 
-@app.before_first_request
 def load_model():
     global list_model
-    for index, type_model in path_model.items():
-        list_model[index] = tf.saved_model.load(Path('static', 'model', type_model).__str__())
+    path_ = Path(__file__).parent.absolute()
+    for ind, type_model in path_model.items():
+        list_model[ind] = tf.saved_model.load(Path(path_, 'static', 'model', type_model).__str__())
 
 
 @app.route('/', methods=['POST', 'GET'])
@@ -41,5 +40,6 @@ def translation(input_sequence, model_type):
 
 
 if __name__ == '__main__':
+    load_model()
     port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
+    app.run(port=port)
